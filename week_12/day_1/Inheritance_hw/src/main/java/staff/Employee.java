@@ -1,6 +1,6 @@
 package staff;
 
-public class Employee {
+public abstract class Employee {
     protected double salary;
     private String name;
     private String nINumber;

@@ -8,9 +8,7 @@ public class EmployeeTest {
     Employee employee;
 
     @Before
-    public void setUp(){
-        employee = new Employee("Michael", "PX 26 72 06 D", 100000);
-        }
+    employee = new Manager("Michael", "PX 26 72 06 D", 100000.0, "Production");
 
     @Test
     public void hasName(){
